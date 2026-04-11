@@ -42,9 +42,16 @@
       <a href="https://trenutak.unlocktheessence.com">Pogledaj trenutni uvid</a>
     </p>
 
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Upiši kako se osećaš ili šta tražiš..."
+      style="width:100%; padding:10px; margin:20px 0; border:1px solid #ccc;"
+    >
+
     <h2>Najčešći osećaji ovih dana</h2>
 
-    <ul>
+    <ul class="entry-list">
       <li><a href="stalno-sam-umoran-ovih-dana.html">Stalno sam umoran ovih dana</a></li>
       <li><a href="nemam-energiju-ni-za-sta-ovih-dana.html">Nemam energiju ni za šta ovih dana</a></li>
       <li><a href="ne-znam-sta-mi-se-desava-trenutno.html">Ne znam šta mi se dešava trenutno</a></li>
@@ -54,7 +61,7 @@
 
     <h2>Kada osećaš da nešto u tebi nije isto</h2>
 
-    <ul>
+    <ul class="entry-list">
       <li><a href="osecam-da-nisam-u-svom-ritmu.html">Osećam da nisam u svom ritmu</a></li>
       <li><a href="imam-osecaj-da-nisam-svoj.html">Imam osećaj da nisam svoj</a></li>
       <li><a href="ne-osecam-se-kao-pre.html">Ne osećam se kao pre</a></li>
@@ -64,7 +71,7 @@
 
     <h2>Kada pokušavaš da razumeš ovaj trenutak</h2>
 
-    <ul>
+    <ul class="entry-list">
       <li><a href="kako-da-razumem-sta-mi-se-desava.html">Kako da razumem šta mi se dešava</a></li>
       <li><a href="imam-osecaj-da-nesto-nije-u-redu-sa-mnom.html">Imam osećaj da nešto nije u redu sa mnom</a></li>
       <li><a href="imam-osecaj-da-treba-nesto-da-shvatim.html">Imam osećaj da treba nešto da shvatim</a></li>
@@ -74,7 +81,7 @@
 
     <h2>Kada ne možeš jasno da objasniš kako ti je</h2>
 
-    <ul>
+    <ul class="entry-list">
       <li><a href="sta-mi-se-desava-trenutno.html">Šta mi se dešava trenutno</a></li>
       <li><a href="ne-znam-sta-mi-se-desava.html">Ne znam šta mi se dešava</a></li>
       <li><a href="imam-osecaj-da-nesto-nije-jasno-u-meni.html">Imam osećaj da nešto nije jasno u meni</a></li>
@@ -82,9 +89,19 @@
       <li><a href="osecam-da-nisam-u-svom-ritmu-ovih-dana.html">Osećam da nisam u svom ritmu ovih dana</a></li>
     </ul>
 
+    <h2>Kada želiš da pokreneš stvari ili izađeš iz zastoja</h2>
+
+    <ul class="entry-list">
+      <li><a href="kako-da-pokrenem-stvari-u-zivotu.html">Kako da pokrenem stvari u životu</a></li>
+      <li><a href="kako-da-izadjem-iz-zacaranog-kruga.html">Kako da izađem iz začaranog kruga</a></li>
+      <li><a href="kako-da-prestanem-da-odlazem.html">Kako da prestanem da odlažem</a></li>
+      <li><a href="kako-da-pronadjem-pravac-u-zivotu.html">Kako da pronađem pravac u životu</a></li>
+      <li><a href="kako-da-se-saberem.html">Kako da se saberem</a></li>
+    </ul>
+
     <h2>Ljudi često traže i</h2>
 
-    <ul>
+    <ul class="entry-list">
       <li>šta mi se dešava trenutno</li>
       <li>zašto se ovako osećam ovih dana</li>
       <li>ne znam šta mi se dešava</li>
@@ -98,5 +115,34 @@
     </p>
 
   </main>
+
+  <script>
+    const input = document.getElementById("searchInput");
+
+    input.addEventListener("keyup", function () {
+      let filter = input.value.toLowerCase();
+      let lists = document.querySelectorAll(".entry-list");
+
+      lists.forEach(list => {
+        let items = list.querySelectorAll("li");
+        let hasVisibleItems = false;
+
+        items.forEach(item => {
+          let text = item.innerText.toLowerCase();
+          let match = text.includes(filter);
+          item.style.display = match ? "" : "none";
+          if (match) hasVisibleItems = true;
+        });
+
+        const heading = list.previousElementSibling;
+        if (heading && heading.tagName === "H2") {
+          heading.style.display = hasVisibleItems || filter === "" ? "" : "none";
+        }
+
+        list.style.display = hasVisibleItems || filter === "" ? "" : "none";
+      });
+    });
+  </script>
+
 </body>
 </html>
