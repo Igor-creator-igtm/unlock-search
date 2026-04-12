@@ -48,3 +48,17 @@ a {
 a:hover {
   opacity: 0.6;
 }
+
+.site-link-top,
+.site-link-bottom {
+  font-size: 14px;
+  opacity: 0.65;
+}
+
+.site-link-top {
+  margin-bottom: 28px;
+}
+
+.site-link-bottom {
+  margin-top: 40px;
+}
