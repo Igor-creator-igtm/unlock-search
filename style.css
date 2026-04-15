@@ -62,3 +62,32 @@ a:hover {
   margin-top: 10px;
   font-weight: 500;
 }
+.site-header {
+  margin-bottom: 28px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo {
+  height: 28px;
+  display: block;
+  opacity: 0.85;
+}
+
+.brand-text {
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  opacity: 0.8;
+}
+
+.brand:hover .logo,
+.brand:hover .brand-text {
+  opacity: 1;
+}
