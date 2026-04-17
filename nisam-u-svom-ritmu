@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nisam u svom ritmu | Unlock the Essence</title>
+  <meta
+    name="description"
+    content="Ako osećaš da nisi u svom ritmu, da nisi sasvim svoj ili da nešto u tebi više nije kao pre, ovde možeš da sagledaš taj pomak jasnije."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="unlock-the-essence-logo.png" />
+</head>
+<body>
+  <main class="container">
+
+    <header class="site-header">
+      <a href="https://www.unlocktheessence.com" class="brand">
+        <img src="unlock-the-essence-logo.png" alt="Unlock the Essence" class="logo">
+        <span class="brand-text">Unlock the Essence</span>
+      </a>
+    </header>
+
+    <h1>Nisam u svom ritmu</h1>
+
+    <p>
+      Nekad se ne radi o jednom problemu, već o tihom osećaju da više nisi sasvim u onome što ti je prirodno.
+    </p>
+
+    <p>
+      Kao da se negde u tebi promenio tempo.
+      Ne nužno naglo, ne nužno dramatično,
+      ali dovoljno da primetiš da nešto više ne teče isto kao pre.
+    </p>
+
+    <p>
+      Možda funkcionišeš spolja,
+      obavljaš šta treba,
+      razgovaraš, krećeš se, radiš,
+      ali unutra kao da nema istog osećaja prisutnosti.
+    </p>
+
+    <p>
+      To ne mora odmah da znači da je nešto pogrešno.
+      Ponekad samo pokazuje da si se udaljio od svog ritma,
+      i da to sada postaje vidljivo.
+    </p>
+
+    <div class="soft-block">
+      <p>
+        Ako se prepoznaješ u ovome, možda osećaš i nešto od sledećeg:
+      </p>
+      <ul>
+        <li>imaš osećaj da nisi sasvim svoj</li>
+        <li>ne osećaš se kao pre</li>
+        <li>kao da si izgubio unutrašnji tempo</li>
+        <li>osećaš da nešto u tebi nije u balansu</li>
+      </ul>
+    </div>
+
+    <p>
+      Kada se izgubi ritam, često se prvo pokušava povratak kroz napor.
+      Da se stvari poprave, ubrzaju ili vrate na staro.
+    </p>
+
+    <p>
+      Ali ritam se ne vraća uvek silom.
+      Nekad počinje da se vraća tek kada se primeti gde je kontakt sa sobom postao slabiji.
+    </p>
+
+    <p>
+      Nije potrebno da sada odmah znaš kako da se vratiš.
+      Nekad je dovoljno da jasno vidiš da si se pomerio od nečega što ti je bilo prirodno.
+    </p>
+
+    <p>
+      I već to ume da promeni način na koji posmatraš sebe u ovom trenutku.
+    </p>
+
+    <p>
+      Ako želiš da sagledaš šta stoji iza tog osećaja
+      i zašto više nemaš isti unutrašnji tok,
+      možeš nastaviti odavde.
+    </p>
+
+    <p>
+      <a href="https://zasto.unlocktheessence.com/osecam-da-nisam-u-svom-ritmu.html">
+        Pogledaj zašto nisi u svom ritmu
+      </a>
+    </p>
+
+    <p>
+      Ako želiš da sagledaš svoj obrazac šire i ličnije,
+      možeš pogledati i Lični uvid.
+    </p>
+
+    <p>
+      <a href="https://uvid.unlocktheessence.com/">
+        Pogledaj Lični uvid
+      </a>
+    </p>
+
+    <h2>Možda ćeš se prepoznati i u ovome</h2>
+
+    <ul class="entry-list">
+      <li><a href="osecam-da-nisam-u-svom-ritmu.html">Osećam da nisam u svom ritmu</a></li>
+      <li><a href="osecam-da-nisam-u-svom-ritmu-ovih-dana.html">Osećam da nisam u svom ritmu ovih dana</a></li>
+      <li><a href="imam-osecaj-da-nisam-svoj.html">Imam osećaj da nisam svoj</a></li>
+      <li><a href="ne-osecam-se-kao-pre.html">Ne osećam se kao pre</a></li>
+      <li><a href="https://zasto.unlocktheessence.com/osecam-da-nisam-u-svom-ritmu.html">Zašto nisam u svom ritmu</a></li>
+    </ul>
+
+    <p class="site-link-bottom">
+      <a href="https://www.unlocktheessence.com">Unlock the Essence</a>
+    </p>
+
+  </main>
+</body>
+</html>
