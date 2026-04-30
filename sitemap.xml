@@ -1,98 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- INDEX -->
-  <url>
-    <loc>https://kako.unlocktheessence.com/</loc>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- NAJČEŠĆI OSEĆAJI -->
-  <url><loc>https://kako.unlocktheessence.com/stalno-sam-umoran-ovih-dana.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/nemam-energiju-ni-za-sta-ovih-dana.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/ne-znam-sta-mi-se-desava-trenutno.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/zasto-se-ovako-osecam-ovih-dana.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/sta-mi-se-desava-u-zivotu-trenutno.html</loc></url>
-
-  <!-- UNUTRAŠNJE STANJE -->
-  <url><loc>https://kako.unlocktheessence.com/osecam-da-nisam-u-svom-ritmu.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/imam-osecaj-da-nisam-svoj.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/ne-osecam-se-kao-pre.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/osecam-da-se-nesto-menja-u-meni.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/</loc><priority>1.0</priority></url>
   <url><loc>https://kako.unlocktheessence.com/imam-cudan-osecaj-u-sebi.html</loc></url>
-
-  <!-- RAZUMEVANJE -->
-  <url><loc>https://kako.unlocktheessence.com/kako-da-razumem-sta-mi-se-desava.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/imam-osecaj-da-nesto-nije-jasno-u-meni.html</loc></url>
   <url><loc>https://kako.unlocktheessence.com/imam-osecaj-da-nesto-nije-u-redu-sa-mnom.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/imam-osecaj-da-treba-nesto-da-shvatim.html</loc></url>
-  <url><loc>https://kako.unlocktheessence.com/osecam-da-sam-u-prelazu.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/imam-osecaj-da-nisam-svoj.html</loc></url>
   <url><loc>https://kako.unlocktheessence.com/imam-osecaj-da-se-nesto-desava.html</loc></url>
-
-  <!-- NAJLAKŠI ULAZ -->
-  <url>
-    <loc>https://kako.unlocktheessence.com/sta-mi-se-desava-trenutno.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/ne-znam-sta-mi-se-desava.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/imam-osecaj-da-nesto-nije-jasno-u-meni.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/ne-mogu-da-objasnim-kako-se-osecam.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/osecam-da-nisam-u-svom-ritmu-ovih-dana.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- NOVI KAKO ULAZI -->
-  <url>
-    <loc>https://kako.unlocktheessence.com/kako-da-pokrenem-stvari-u-zivotu.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/kako-da-izadjem-iz-zacaranog-kruga.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/kako-da-prestanem-da-odlazem.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/kako-da-pronadjem-pravac-u-zivotu.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/kako-da-se-saberem.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/ne-mogu-da-se-pokrenem.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/nisam-u-svom-ritmu.html</loc>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://kako.unlocktheessence.com/nemam-energiju.html</loc>
-    <priority>0.9</priority>
-  </url>
-
+  <url><loc>https://kako.unlocktheessence.com/imam-osecaj-da-treba-nesto-da-shvatim.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/kako-da-izadjem-iz-zacaranog-kruga.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/kako-da-pokrenem-stvari-u-zivotu.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/kako-da-prestanem-da-odlazem.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/kako-da-pronadjem-pravac-u-zivotu.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/kako-da-razumem-sta-mi-se-desava.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/kako-da-se-saberem.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/ne-mogu-da-objasnim-kako-se-osecam.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/ne-mogu-da-se-pokrenem.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/ne-osecam-se-kao-pre.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/ne-znam-sta-mi-se-desava-trenutno.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/ne-znam-sta-mi-se-desava.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/nemam-energiju-ni-za-sta-ovih-dana.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/nemam-energiju.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/nisam-u-svom-ritmu.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/osecam-da-nisam-u-svom-ritmu-ovih-dana.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/osecam-da-nisam-u-svom-ritmu.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/osecam-da-sam-u-prelazu.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/osecam-da-se-nesto-menja-u-meni.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/stalno-sam-umoran-ovih-dana.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/sta-mi-se-desava-trenutno.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/sta-mi-se-desava-u-zivotu-trenutno.html</loc></url>
+  <url><loc>https://kako.unlocktheessence.com/zasto-se-ovako-osecam-ovih-dana.html</loc></url>
 </urlset>
